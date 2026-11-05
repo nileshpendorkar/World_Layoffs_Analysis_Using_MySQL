@@ -15,6 +15,18 @@ Using MySQL, I cleaned raw layoff data, addressed data quality issues, and perfo
 
 ---
 
+## Project Highlights
+
+- Cleaned and transformed raw layoff data using MySQL.
+- Removed duplicates and standardized inconsistent values.
+- Performed exploratory data analysis (EDA).
+- Analyzed layoffs by company, country, industry, and year.
+- Applied CTEs, Window Functions, and DENSE_RANK().
+- Created rolling totals to identify layoff trends over time.
+- Generated business insights from real-world data.
+
+---
+
 ## Project Objectives
 
 - Clean and prepare a real-world layoffs dataset for analysis.
@@ -302,6 +314,36 @@ Consumer, Retail, Transportation, and Finance industries were heavily impacted.
 ### Insight 6
 
 Several companies reported 100% workforce reductions, indicating complete shutdowns.
+
+---
+
+## Industry Analysis
+
+<img src="images/Industry_Analysis.png" width="900">
+
+---
+
+## Monthly Rolling Total Layoffs
+
+<img src="images/Month_wise_Rolling_Total_Layoffs.png" width="900">
+
+---
+
+## Top Companies by Layoffs
+
+<img src="images/Top_Companies_by_Layoffs.png" width="900">
+
+---
+
+## Top Countries by Layoffs
+
+<img src="images/Top_Countries_By_Layoffs.png" width="900">
+
+---
+
+## Year-wise Top 5 Companies by Layoffs
+
+<img src="images/Year_Wise_Top_5_Companies_By_layoffs.png" width="900">
 
 ---
 
