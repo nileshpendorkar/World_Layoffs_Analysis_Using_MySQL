@@ -366,15 +366,20 @@ Several companies reported 100% workforce reductions, indicating complete shutdo
 
 ## Project Structure
 
-```
-
-World-Layoffs-Analysis/
+```text
+World_Layoffs_Analysis_Using_MySQL/
 │
-├── Data Cleaning SQL.sql
-├── Exploratory Data Analysis.sql
-├── layoffs.csv
-└── README.md
-
+├── README.md                           # Project documentation
+├── layoffs.csv                         # Raw dataset
+├── 01_Data_Cleaning.sql                # Data cleaning and preprocessing
+├── 02_Exploratory_Data_Analysis.sql    # EDA and business insights
+│
+└── images/
+    ├── Industry_Analysis.png
+    ├── Month_wise_Rolling_Total_Layoffs.png
+    ├── Top_Companies_by_Layoffs.png
+    ├── Top_Countries_By_Layoffs.png
+    └── Year_Wise_Top_5_Companies_By_layoffs.png
 ```
 
 ---
